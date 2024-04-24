@@ -1,0 +1,26 @@
+{
+  "name": "workadventure-inventory",
+  "version": "1.0.0",
+  "description": "A plug-and-play library to add inventory and trading capabilities to WorkAdventure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swartline/workadventure-inventory.git"
+  },
+  "keywords": [
+    "workadventure",
+    "inventory",
+    "trade",
+    "trading",
+    "items"
+  ],
+  "author": "Swartline, Fred-57, ryanmalonzo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Swartline/workadventure-inventory/issues"
+  },
+  "homepage": "https://github.com/Swartline/workadventure-inventory#readme"
+}
