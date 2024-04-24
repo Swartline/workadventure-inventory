@@ -2,7 +2,11 @@
   "name": "workadventure-inventory",
   "version": "1.0.0",
   "description": "A plug-and-play library to add inventory and trading capabilities to WorkAdventure",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
     "build": "babel --extensions .ts src -d lib"
   },
@@ -24,10 +28,6 @@
   },
   "homepage": "https://github.com/Swartline/workadventure-inventory#readme",
   "devDependencies": {
-    "@babel/cli": "^7.24.1",
-    "@babel/core": "^7.24.4",
-    "@babel/preset-env": "^7.24.4",
-    "@babel/preset-typescript": "^7.24.1",
     "@workadventure/iframe-api-typings": "^1.18.11",
     "typescript": "^5.4.5"
   }
