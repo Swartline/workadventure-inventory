@@ -1,4 +1,4 @@
-import { Item } from './items/item.js';
+import { type Item } from './inventory/item.js';
 
-export * from './items/index.js';
-export { Item };
+export * from './inventory/index.js';
+export type { Item };
