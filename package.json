@@ -8,7 +8,7 @@
     "/dist"
   ],
   "scripts": {
-    "build": "babel --extensions .ts src -d lib"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
