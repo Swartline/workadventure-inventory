@@ -1,6 +1,6 @@
 {
   "name": "workadventure-inventory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plug-and-play library to add inventory and trading capabilities to WorkAdventure",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -28,7 +28,13 @@
   },
   "homepage": "https://github.com/Swartline/workadventure-inventory#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@workadventure/iframe-api-typings": "^1.18.11",
+    "eslint": "^8.57.0",
+    "eslint-config-standard-with-typescript": "^43.0.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
     "typescript": "^5.4.5"
   }
 }

@@ -12,7 +12,7 @@
     "outDir": "./dist",
     "declaration": true
   },
-  "include": ["src/**/*", "index.js"],
+  "include": ["src/**/*", ".eslintrc.js"],
   "display": "Recommended",
   "$schema": "https://json.schemastore.org/tsconfig"
 }
