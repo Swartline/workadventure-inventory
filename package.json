@@ -27,6 +27,7 @@
     "@babel/cli": "^7.24.1",
     "@babel/core": "^7.24.4",
     "@babel/preset-typescript": "^7.24.1",
+    "@workadventure/iframe-api-typings": "^1.18.11",
     "typescript": "^5.4.5"
   }
 }

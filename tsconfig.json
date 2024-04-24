@@ -5,7 +5,10 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "types": [
+      "./node_modules/@workadventure/iframe-api-typings/iframe_api.d.ts"
+    ]
   },
   "display": "Recommended",
   "$schema": "https://json.schemastore.org/tsconfig"
