@@ -16,6 +16,10 @@ export const initPlayerInventory = async (): Promise<void> => {
   }
 };
 
+export const clearPlayerInventory = async (): Promise<void> => {
+  await WA.player.state.saveVariable(INVENTORY_VARIABLE_NAME, []);
+};
+
 export const addPlayerItem = async (item: Item): Promise<Item[]> => {
   const inventory = await getPlayerInventory();
   inventory.push(item);

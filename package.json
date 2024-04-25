@@ -1,6 +1,6 @@
 {
   "name": "workadventure-inventory",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "A plug-and-play library to add inventory and trading capabilities to WorkAdventure",
   "main": "dist/index",
   "types": "dist/index",
