@@ -9,7 +9,7 @@ export const getPlayerInventory = async (): Promise<Item[]> => {
   return inventory;
 };
 
-export const initPlayerInventory = async (): Promise<undefined> => {
+export const initPlayerInventory = async (): Promise<void> => {
   const inventory = await getPlayerInventory();
   if (inventory === undefined) {
     await WA.player.state.saveVariable(INVENTORY_VARIABLE_NAME, []);
